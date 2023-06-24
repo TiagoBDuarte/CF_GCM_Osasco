@@ -7,6 +7,10 @@ h1 {
     padding: 5px;
 }
 
+h2{
+    text-align: center;
+}
+
 li {
     list-style-type: none;
 }
@@ -21,3 +25,49 @@ section {
     border-radius: 15px;  
     padding: 20px;
 }
+
+.pais table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .pais th, .pais td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .pais th {
+    background-color: #f2f2f2;
+  }
+  
+  .pais tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .pais tr:hover {
+    background-color: #ddd;
+  }
+  
+  .pib-cidade table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .pib-cidade th, .pib-cidade td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .pib-cidade th {
+    background-color: #f2f2f2;
+  }
+  
+  .pib-cidade tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .pib-cidade tr:hover {
+    background-color: #ddd;
+  }
