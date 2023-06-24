@@ -1,0 +1,23 @@
+h1 {
+    width: 60%;
+    margin: auto;
+    border: 2px solid #55c965;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+section {
+    margin: auto;
+    margin-bottom:25px;
+    width: 70%;
+    height: 30%;
+    border: 1px solid black;
+    box-shadow: 3px 5px 8px black;
+    border-radius: 15px;  
+    padding: 20px;
+}
