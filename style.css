@@ -2,121 +2,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
 
 /* Estilo geral da página */
-html{
-    padding-bottom: 600px;
+html {
+  padding-bottom: 600px;
 }
+
 body {
-    background-color: #f2f2f2; /* Cor de fundo */
-  margin: 0; /* Remova as margens para evitar espaçamento extra */
-  padding: 0; /* Remova o preenchimento para evitar espaçamento extra */
-  }
-  
-  main {
-    border: 1px solid black;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    background-image: url('imagens/background.jpg');
-    background-size: cover;
-    background-position: center bottom; /* Define a posição central na horizontal e no rodapé na vertical */
-    height: 30vh; /* Ajuste a altura conforme necessário */
-    margin-bottom: 60px;
-    
+  background-color: #f2f2f2;
+  /* Cor de fundo */
+  margin: 0;
+  /* Remova as margens para evitar espaçamento extra */
+  padding: 0;
+  /* Remova o preenchimento para evitar espaçamento extra */
 }
-  
-  h1 {
-    font-family: 'Lato', sans-serif;
-    color: #dde00e; /* Cor Azul Marinho */
-    background-color: rgb(23, 19, 61);
-    padding: 15px;
-    text-align: center;
-    border: 3px solid #1aad58;
-    border-radius: 15px;
-    font-size: 30px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3); /* Sombra suave */
-  }
-  
-  nav {
-    border: 3px solid #1aad58;;
-    border-radius: 15px;
-    box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.3); /* Sombra suave */
-    
-    
-  }
-  
-  nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    padding: 15px;
-    margin: 0;
-  }
-  
-  nav li {
-    flex: 1 0 auto;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  nav a {
-    display: block;
-    padding: 5px 10px;
-    background-color: #00308F; /* Cor Azul Marinho */
-    color: #FFFFFF; /* Texto branco */
-    text-decoration: none;
-    margin: 0 5px;
-  }
-  
-  nav a:hover {
-    background-color: #001F3F; /* Cor Azul Marinho mais escuro */
-  }
 
-  .imagens {
-    text-align: center;
-  }
+main {
+  border: 1px solid black;
+  max-width: 900px;
+  max-height: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('imagens/background.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  /* Define a posição central na horizontal e no rodapé na vertical */
+  height: 30vh;
+  /* Ajuste a altura conforme necessário */
+  margin-bottom: 60px;
 
-  .brasaoz {
-    margin: 20px;
-    width: 50px;
-    height: 50px;
-    background-color: #FCD116; /* Cor Amarela */
-    box-shadow: 2px 21px 19px rgba(0, 0, 0, 0.3); /* Sombra suave */
-    border: 1px solid black;
-    border-radius: 15px;
-  }
+}
 
-  .bandeira {
-    margin: 20px;
-    width: 60px;
-    height: 50px;
-    box-shadow: 2px 21px 19px rgba(0, 0, 0, 0.3); /* Sombra suave */
-    border: 1px solid black;
-    border-radius: 35px;
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #dde00e;
+  /* Cor Azul Marinho */
+  background-color: rgb(23, 19, 61);
+  padding: 15px;
+  text-align: center;
+  border: 3px solid #1aad58;
+  border-radius: 15px;
+  font-size: 30px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  /* Sombra suave */
+}
 
-  }
+nav {
+  border: 3px solid #1aad58;  
+  border-radius: 15px;
+  box-shadow: 4px 3px 12px #0000004d;/* Sombra suave */
 
-  .brasaogcm {
-    margin: 20px;
-    width: 60px;
-    height: 50px;
-    box-shadow: 2px 21px 19px rgba(0, 0, 0, 0.3); /* Sombra suave */
-    border: 1px solid black;
-    border-radius: 35px;
 
-  }
+}
 
-  footer {
-    position: fixed; /* Posiciona o footer de forma fixa na parte inferior da janela do navegador */
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #001f3f; /* Cor de fundo do footer */
-    color: #ffffff; /* Cor do texto do footer */
-    padding-bottom:55px;/* Aumente o espaçamento interno para o texto ficar dentro do footer */
-    height: 30px; /* Altura do footer */
-  }
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 15px;
+  margin: 0;
+}
 
-  .dev{
-    color:yellow ;
-  }
-  
+nav li {
+  flex: 1 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: 5px 10px;
+  background-color: #00308F;
+  /* Cor Azul Marinho */
+  color: #FFFFFF;
+  /* Texto branco */
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+nav a:hover {
+  background-color: #001F3F;
+  /* Cor Azul Marinho mais escuro */
+}
+
+.imagens {
+  text-align: center;
+}
+
+.brasaoz {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #FCD116;
+  /* Cor Amarela */
+  box-shadow: 2px 21px 19px rgba(0, 0, 0, 0.3);
+  /* Sombra suave */
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.bandeira {
+  margin: 20px;
+  width: 60px;
+  height: 50px;
+  box-shadow: 2px 21px 19px rgba(0, 0, 0, 0.3);
+  /* Sombra suave */
+  border: 1px solid black;
+  border-radius: 35px;
+
+}
+
+.brasaogcm {
+  margin: 20px;
+  width: 60px;
+  height: 50px;
+  box-shadow: 2px 21px 19px rgba(0, 0, 0, 0.3);
+  /* Sombra suave */
+  border: 1px solid black;
+  border-radius: 35px;
+
+}
+
+footer {
+  position: fixed;
+  /* Posiciona o footer de forma fixa na parte inferior da janela do navegador */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #001f3f;
+  /* Cor de fundo do footer */
+  color: #ffffff;
+  /* Cor do texto do footer */
+  padding-bottom: 35px;
+  /* Aumente o espaçamento interno para o texto ficar dentro do footer */
+  height: 30px;
+  /* Altura do footer */
+  text-align: center;
+}
+
+p{
+  padding: 20px;
+}
+
+.dev {
+  color: yellow;
+  padding: 20px;
+}
