@@ -21,7 +21,7 @@ main {
   max-height: 200px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url('imagens/background.jpg');
+  
   background-size: cover;
   background-position: center bottom;
   /* Define a posição central na horizontal e no rodapé na vertical */
