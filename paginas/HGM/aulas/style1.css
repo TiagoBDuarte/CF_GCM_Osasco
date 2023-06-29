@@ -1,0 +1,31 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para tornar a página responsiva */
+  @media screen and (max-width: 768px) {
+    /* Adicione aqui os estilos específicos para telas menores */
+  }
+  
+  /* Estilos para tabelas */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para destacar dados de Osasco */
+  td:contains("Osasco") {
+    background-color: yellow;
+  }
+  
